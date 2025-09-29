@@ -1,39 +1,39 @@
-# 📘 Classes and Objects in C++  
+# Classes and Objects in C++  
 
 ---
 
-## 🎯 Aim  
+## Aim  
 To study and implement **classes and objects** in C++, understand the difference between **inside and outside class definitions**, and explore the role of **public and private access specifiers** in encapsulation.  
 
 ---
 
-## 📚 Theory  
+## Theory  
 
 In C++, **classes and objects** are the foundation of Object-Oriented Programming (OOP).  
 - A **class** is a blueprint that defines data and functions.  
 - An **object** is an instance of a class that holds actual values.  
 
-### 🏗️ Class  
+### Class  
 - Defines **data members** (variables) and **member functions** (methods).  
 - Can use **access specifiers**:  
   - `public` → Accessible outside the class.  
   - `private` → Accessible only inside the class.  
 - Helps in **encapsulation** (data hiding).  
 
-### 🧑‍🤝‍🧑 Object  
+### Object  
 - An **object** is created from a class.  
 - Each object has its own copy of class variables.  
 - Example: `Car c1;` creates an object `c1` of class `Car`.  
 
-### 📝 Function Definitions  
+### Function Definitions  
 - **Inside the class** → Function body is written directly in the class.  
 - **Outside the class** → Function declared inside, defined outside using `::` (scope resolution).  
 
 ---
 
-## 📊 Comparison Table  
+## Comparison Table  
 
-| ⚙️ Feature                 | 🏗️ Class                                   | 🧑‍🤝‍🧑 Object                               |
+| Feature                 | Class                                   | Object                               |
 |-----------------------------|-------------------------------------------|---------------------------------------------|
 | **Definition**              | Blueprint/template                        | Instance of a class                          |
 | **What it contains**        | Data members + functions                  | Real values and operations                   |
@@ -43,17 +43,17 @@ In C++, **classes and objects** are the foundation of Object-Oriented Programmin
 
 ---
 
-## 🖼️ Visual Representation  
+## Visual Representation  
 
-📌 Class → Object Relationship  
+ Class → Object Relationship  
 
 <img width="799" height="505" alt="image" src="https://github.com/user-attachments/assets/272cfa8c-5d12-4b8a-a451-856ace49610d" />
 
 ---
 
-## 📋 Algorithms  
+## Algorithms  
 
-### 🔹 Cube Volume (Outside Class)  
+### Cube Volume (Outside Class)  
 
 1. **Start**  
 2. Define class `Cube` with private members: `side`, `volume`.  
@@ -71,7 +71,7 @@ In C++, **classes and objects** are the foundation of Object-Oriented Programmin
 
 ---
 
-### 🔹 Cuboid Volume (Inside Class)  
+### Cuboid Volume (Inside Class)  
 
 1. **Start**  
 2. Define class `Cuboid` with members: `length`, `breadth`, `height`, `volume`.  
@@ -86,7 +86,7 @@ In C++, **classes and objects** are the foundation of Object-Oriented Programmin
 
 ---
 
-### 🔹 Reverse Array (Outside Class)  
+### Reverse Array (Outside Class)  
 
 1. **Start**  
 2. Define class `ArrayOps` with member function `reverseArray(arr[], size)`.  
@@ -102,7 +102,7 @@ In C++, **classes and objects** are the foundation of Object-Oriented Programmin
 
 ---
 
-### 🔹 Simple Calculator  
+### Simple Calculator  
 
 1. **Start**  
 2. Define class `Calculator` with members: `num1`, `num2`.  
@@ -119,7 +119,7 @@ In C++, **classes and objects** are the foundation of Object-Oriented Programmin
 
 ---
 
-### 🔹 Student Details  
+### Student Details  
 
 1. **Start**  
 2. Define class `Student` with members: `name`, `branch`, `subject`, `year`, `result`.  
@@ -132,13 +132,13 @@ In C++, **classes and objects** are the foundation of Object-Oriented Programmin
 
 ---
 
-## 🧠 Conclusion  
+## Conclusion  
 
 This experiment demonstrates the importance of **Classes and Objects in C++**.  
 
-- 🏗️ **Class** → Defines structure and behavior.  
-- 🧑‍🤝‍🧑 **Object** → Real entity with data and functionality.  
-- ✅ Key Insights:  
+- **Class** → Defines structure and behavior.  
+- **Object** → Real entity with data and functionality.  
+- Key Insights:  
   - Use **inside class methods** for simplicity.  
   - Use **outside class methods** for better organization.  
   - Classes and objects allow **encapsulation, reusability, and real-world modeling** in programming.
